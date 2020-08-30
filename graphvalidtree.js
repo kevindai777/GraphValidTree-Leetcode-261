@@ -4,6 +4,7 @@ let n = 5, edges = [[0,1], [0,2], [0,3], [1,4]]
 
 
 //O(n) solution where n is the number of vertices in the graph
+//We check for two things: A cycle and unconnected components
 
 let graph = new Map()
     
